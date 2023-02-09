@@ -47,9 +47,14 @@ class addItemDialog extends StatelessWidget {
                 Expanded(child: TextField(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      labelText: 'Hint',
+                      labelText: 'TO-Do list',
                     )
                 ))
+              ],
+            ),
+            Row(
+              children: [
+                Text("Period"),
 
               ],
             )
